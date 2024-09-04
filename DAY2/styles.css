@@ -44,9 +44,10 @@ nav ul li a:hover {
     color: #f0f1f6; /* Change text color on hover */
     box-shadow: 0px 0px 10px 3px rgba(243, 243, 243, 0.6); /* Light white box shadow on hover */
     border-radius: 4px; /* Optional: Rounded corners for the shadow effect */
+    text-decoration: none;
 }
 
-h2 {
+h2, h3 {
     color: #1a41d6;
 }
 
@@ -64,4 +65,31 @@ section {
 
 ul li {
     padding: 0;
+}
+
+/* Updated CSS for the Curriculum Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.grid-item {
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional styling for footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
