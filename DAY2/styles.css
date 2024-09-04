@@ -1,0 +1,42 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+background: #f4f4f4;
+}
+body >header{
+    background-color: white;
+}
+header{
+    text-align: center;
+}
+h1 {
+    color:#1a41d6
+}
+nav{
+    background-color:black;
+    margin: 4px;
+    text-align: center;
+}
+nav ul li{
+    list-style-type: none ;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 14px 12px;
+
+}
+h2{
+    color:#1a41d6
+}
+.card img{
+    max-width: 300px;
+    margin-left: 420px;
+
+}
+section{
+    background-color: white ;
+    padding: 4px;
+    border-radius: 4px;
+    margin: 10px;
+}
+ul li{
+    padding: 0;
+}
